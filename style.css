@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/7a/1b/ed/7a1bed4b39da5a000c14109fe3950302.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: "Shrikhand", cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 30px;
+    margin: -150px 0 0px;
+    color: #589e64;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f2fedf;
+ 
+}
+
+.subtittle {
+    font-weight: normal;
+    font-size: 70px;
+    margin: 0 0 80px;
+    color: hsl(5, 52%, 50%);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffefcd;
+}
+
+.countdown {
+    display: flex;
+    transform: scale(2);
+    /* outline-color: #f0f8ff;
+    outline-width: 3px;
+    outline: auto; */
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    
+}
+
+.time h2 {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0 10px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 45px;
+        margin: -100px 0 20px;
+    }
+
+    .countdown {
+        transform: scale(1);
+    }
+}
