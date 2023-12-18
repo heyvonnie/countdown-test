@@ -1,5 +1,5 @@
 // Amount of Snowflakes
-let snowMax = 35
+let snowMax = 65
 // Snowflake Colours
 let snowColor = ["#DDD", "#EEE"]
 // Snow Entity
